@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="YOUTUBE CLONE WEBSITE - RESPONSIVE">
+
+    <title> Youtube </title>
+
+    <link rel="icon" href="https://www.youtube.com/s/desktop/165dcb41/img/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" href="https://www.youtube.com/s/desktop/165dcb41/img/favicon_48x48.png" sizes="48x48">
+    <link rel="icon" href="https://www.youtube.com/s/desktop/165dcb41/img/favicon_96x96.png" sizes="96x96">
+    <link rel="icon" href="https://www.youtube.com/s/desktop/165dcb41/img/favicon_144x144.png" sizes="144x144">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+
+
+</head>
+
+<body>
+    <!-- header  -->
+
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="icons/hamburger-menu.svg" alt="header icons" class="menu-icon" />
+            <img src="icons/youtube-logo.svg" title="YouTube Home" alt="header icons" class="logo" />
+        </div>
+
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search" />
+                <img src="icons/search.svg" alt="search icon" data-bs-toggle="tooltip" title="Search">
+
+            </div>
+            <img src="icons/voice-search-icon.svg" alt="voice search icon" class="mic-icon" style="width: 20px; "
+                data-bs-toggle="tooltip" title="Search with your voice" />
+
+
+        </div>
+
+
+
+        <div class="nav-right flex-div">
+            <img src="icons/upload.svg" alt="header icons" data-bs-toggle="tooltip" title="Create" />
+            <img src="icons/youtube-apps.svg" alt="header icons" data-bs-toggle="tooltip" title="" />
+            <img src="icons/notifications.svg" alt="header icons" data-bs-toggle="tooltip" title="Notifications" />
+            <img class="user-icon" src="Photos/channels4_profile.jpg" alt="header icons" />
+        </div>
+    </nav>
+
+    <!-- sidebar  -->
+
+    <div class="sidebar">
+        <div class="shortcut-linkss">
+            <a href=""><img src="icons/horizontal_icons/home.svg" alt="sidebar" title="Home" />
+                <p>Home</p>
+            </a>
+        </div>
+        <div class="shortcut-linkss">
+            <a href=""><img src="icons/horizontal_icons/shorts.svg" alt="sidebar" title="Shorts" />
+                <p>Shorts</p>
+            </a>
+        </div>
+        <div class="shortcut-linkss">
+            <a href=""><img src="icons/horizontal_icons/subscriptions.svg" alt="sidebar" title="Subscription" />
+                <p>Subscription</p>
+            </a>
+        </div>
+        <div class="shortcut-linkss">
+            <a href=""><img src="icons/horizontal_icons/library.svg" alt="sidebar" title="Library" />
+                <p>Library</p>
+            </a>
+        </div>
+        <div class="shortcut-linkss">
+            <a href=""><img src="images/history.png" alt="sidebar" title="History" />
+                <p>History</p>
+            </a>
+        </div>
+
+        <div class="shortcut-linkss">
+            <a href=""><img src="images/playlist.png" alt="sidebar" title="Playlist" />
+                <p>Playlist</p>
+            </a>
+        </div>
+
+        <div class="shortcut-linkss">
+            <a href=""><img src="images/messages.png" alt="sidebar" title="Messages" />
+                <p>Messages</p>
+            </a>
+        </div>
+
+        <div class="shortcut-linkss">
+            <a href=""><img src="images/show-more.png" alt="sidebar" title="Show More" />
+                <p>Show More</p>
+            </a>
+            <hr />
+        </div>
+        <div class="subscribed-list">
+            <h3>Subscriptions</h3>
+            <a href=""><img
+                    src="https://yt3.ggpht.com/ytc/AOPolaQuRZVh3CmV-Z2I0aBSjpHmlsxXFFYdVC8oj-U5oQ=s88-c-k-c0x00ffffff-no-rj"
+                    alt="image" title="Manorama News" />
+                <p>Manorama News</p>
+            </a>
+
+            <a href=""><img
+                    src="https://yt3.ggpht.com/dNXHD2XSx1tKug2Qxmf7D20U3ctr35Um4eVZkJHtjv9OBwCb2WqFu3iWg5Mgg31KfnKWo3zthvs=s88-c-k-c0x00ffffff-no-rj"
+                    alt="image" title="Brototype Malayalam" />
+                <p>Brototype Malayalam</p>
+            </a>
+
+            <a href=""><img
+                    src="https://yt3.ggpht.com/ytc/AOPolaSwz4XbwW30aJBD1SbutXlkSLLpX8Hv4lvhyqrymg=s88-c-k-c0x00ffffff-no-rj"
+                    alt="image" title="Karikku" />
+                <p>Karikku</p>
+            </a>
+
+            <a href=""><img
+                    src="https://yt3.ggpht.com/ytc/AOPolaRu3zcJ4_fybe-8GJUmrGzc2S6xYsxw0HgMnfnI=s88-c-k-c0x00ffffff-no-rj"
+                    alt="image" title="SuperSimpleDev" />
+                <p>SuperSimpleDev</p>
+            </a>
+
+            <a href=""><img
+                    src="https://yt3.ggpht.com/ytc/AOPolaQ14aMU8mdX5mppYlQVNvtcIuLKiqNIuXEy7jaifQ=s88-c-k-c0x00ffffff-no-rj"
+                    alt="image" title="Education 4U" />
+                <p>Education 4U</p>
+            </a>
+
+            <a href=""><img
+                    src="https://yt3.ggpht.com/rrMcZWXHcMJ-GikSl3uEmB2gwu9uWg4gbgvI4_tFcNEkc5ys2emF0Oz6733mDVdaxz2jQ07xzQ=s88-c-k-c0x00ffffff-no-rj"
+                    alt="image" title="5 Minutes Crafts" />
+                <p>5 Minutes Crafts</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- video body   -->
+
+    <div class="container">
+        <div class="list-container">
+
+            <div class="vid-list">
+                <a href="play.html"><img   src="Photos/Thumbnails/1.webp" class="thumbnail" alt="images"> </a>
+                    <div class="flex-div">
+                        <img src="Photos/DP/1.jpg" alt="image">
+                        <div class="vid-info">
+                            <a href="play.html ">JAILER - Hukum Lyric Video | Superstar Rajinikanth</a>
+                            <p>Sun TV <i style="font-size:10px" class="fa">&#xf058;</i> </p>
+                            <p>47M Views &#183; 1 month ago</p>
+                        </div>
+                    </div>
+            </div>
+
+
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/2.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/2.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html "> What is Internet ? How do we generate mobile
+                            data ? </a>
+                        <p> Brototype Malayalam <i style="font-size:10px" class="fa">&#xf058;</i> </p>
+                        <p> 75K views &#183; 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play.html"><img     src="Photos/Thumbnails/3.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/3.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html ">33 ALIEN GOALS by Lionel Messi </a>
+                        <p> BENSANTOS </p>
+                        <p>6.9M Views &#183; 4 years ago </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/10.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/10.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">C++ Full Course for free ⚡️</a>
+                        <p>Bro Code <i style="font-size:10px" class="fa">&#xf058;</i></p>
+                        <p>1.6M Views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/4.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/4.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">അശ്വിനും അരുണിനും "പത്തുലക്ഷം"....</a>
+                        <p>Mazhavil Manorama <i style="font-size:10px" class="fa">&#xf058;</i></p>
+                        <p>4.2M Views &#183; 1 month ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/6.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/6.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">CR7 HAT TRICK 🔥 | Al Nassr vs Al Fateh 5-0 | All Goals & ..</a>
+                        <p>EGol7 <i style="font-size:10px" class="fa">&#xf058;</i></p>
+                        <p>2M Views &#183; 1 day ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/5.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/5.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">Trending tiktok 2023 🍹 Tiktok mashup 2023 - Viral songs latest</a>
+                        <p>Love Life Lyrics <i style="font-size:10px" class="fa">&#xf058;</i></p>
+                        <p>133K Views &#183; 1 day ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/8.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/8.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">HTML & CSS Full Course - Beginner to Pro</a>
+                        <p>SuperSimpleDev</p>
+                        <p>6.1M Views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play.html"><img     src="Photos/Thumbnails/9.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/9.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">Chandrayaan-3 Addressing by Honorable Prime Minister</a>
+                        <p>!SRO Official <i style="font-size:10px" class="fa">&#xf058;</i></p>
+                        <p>2.2K views &#183; 5 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/11.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/11.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">Calculator App Coding - No Talking - HTML CSS JS Web Development
+                            Tutorial</a>
+                        <p>AcademyNet</p>
+                        <p>221 Views &#183; 21 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/12.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/12.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">Mac vs Windows - Who Wins in 2023?</a>
+                        <p>Mrwhosetheboss <i style="font-size:10px" class="fa">&#xf058;</i></p>
+                        <p>3.8M Views &#183; 13 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/13.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/13.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">How To Make Tooltips With Only CSS</a>
+                        <p>Web Dev Simplified <i style="font-size:10px" class="fa">&#xf058;</i></p>
+                        <p>93K views &#183; 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/1.webp" class="thumbnail" alt="images">
+                    <div class="flex-div">
+                        <img src="Photos/DP/1.jpg" alt="image">
+                        <div class="vid-info">
+                            <a href="play.html ">JAILER - Hukum Lyric Video | Superstar Rajinikanth</a>
+                            <p>Sun TV <i style="font-size:10px" class="fa">&#xf058;</i> </p>
+                            <p>47M Views &#183; 1 month ago</p>
+                        </div>
+                    </div>
+            </div>
+
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/14.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/2.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">MNC vs Startup - Freshers എവിടെ ജോലി ചെയ്യും ?</a>
+                        <p>Brototype <i style="font-size:10px" class="fa">&#xf058;</i></p>
+                        <p>35k Views &#183; 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play.html"><img     src="Photos/Thumbnails/15.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/15.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">Heath Ledger Wins Oscar for The Best Supporting Actor</a>
+                        <p>Oscars <i style="font-size:10px" class="fa">&#xf058;</i></p>
+                        <p>25M Views &#183; 14 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/16.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/16.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">VIKRAM - MAKING | Kamal Haasan | Vijay Sethupathi..</a>
+                        <p>Disney+ Hotstar Tamil</p>
+                        <p>4.3M Views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/17.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/17.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">Mr. Bean Live Performance at the London 2012 Olympic Games</a>
+                        <p>Olympics <i style="font-size:10px" class="fa">&#xf058;</i></p>
+                        <p>113M Views &#183; 11 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/18.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/18.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">Sheldon’s Election Speech (Clip) | Young Sheldon | TBS</a>
+                        <p>TBS <i style="font-size:10px" class="fa">&#xf058;</i></p>
+                        <p>1.7M Views &#183; 11 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/19.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/2.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">Part 6.1 | Javascript | Web Designing Malayalam Tutorial</a>
+                        <p>Brototype Malayalam <i style="font-size:10px" class="fa">&#xf058;</i></p>
+                        <p>173K Views &#183; 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="vid-list">
+                <a href="play.html"><img   src="Photos/Thumbnails/20.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/20.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">All World Cup Finals Since 1998</a>
+                        <p>Calcio Show</p>
+                        <p>4.3M Views &#183; 8 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/21.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/21.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">BARÇA 2-0 CADIZ | LALIGA 2023/24 MD2</a>
+                        <p>FC Barcelona <i style="font-size:10px" class="fa">&#xf058;</i></p>
+                        <p>804K views &#183; 5 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/23.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/23.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">Doubt clearing Which stack will choose</a>
+                        <p>Riyas Pullur</p>
+                        <p>557 Views &#183; 8 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/24.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/24.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html">Interstellar theme song - video</a>
+                        <p>JustMontage</p>
+                        <p>18M Views &#183; 7 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/1.webp" class="thumbnail" alt="images">
+                    <div class="flex-div">
+                        <img src="Photos/DP/1.jpg" alt="image">
+                        <div class="vid-info">
+                            <a href="play.html ">JAILER - Hukum Lyric Video | Superstar Rajinikanth</a>
+                            <p>Sun TV <i style="font-size:10px" class="fa">&#xf058;</i> </p>
+                            <p>47M Views &#183; 1 month ago</p>
+                        </div>
+                    </div>
+            </div>
+
+
+
+
+
+            <div class="vid-list">
+                <a href="play.html"><img    src="Photos/Thumbnails/3.webp" class="thumbnail" alt="images"></a>
+                <div class="flex-div">
+                    <img src="Photos/DP/3.jpg" alt="image">
+                    <div class="vid-info">
+                        <a href="play.html ">33 ALIEN GOALS by Lionel Messi </a>
+                        <p> BENSANTOS </p>
+                        <p>6.9M Views &#183; 4 years ago </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="script.js">    </script>
+</body>
+
+</html>
